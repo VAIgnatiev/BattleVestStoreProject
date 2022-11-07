@@ -281,9 +281,7 @@ footer > .container:last-child {
 	top: 15px;
 	right: 15px;
 }
-header input {
-	background: white;
-}
+
 header h1 {
 	display: block;
 	text-align: center;
@@ -323,23 +321,20 @@ header h1 {
 }
 .searchForm {
 	height: 30px;
-	width: 300px;
+	width: 350px;
 	background: white;
 	border: 1px solid transparent;
 	border-radius: 5px;
-	margin-right: 10px;
 	display: inline-block;
 }
 .searchForm > input[type="search"] {
-	height: 100%;
-	width: 92,66%;
-	border: none;
-	outline: none;
+	width: calc(100% - 63px);
 	vertical-align: middle;
 }
-.searchForm > button {
-	height: 100%;
+.searchForm > input[type="submit"]{
 	background: lightGray;
+	border-radius: 3px;
+	cursor: pointer;
 }
 .search > a {
 	height: 30px;
@@ -449,27 +444,27 @@ header h1 {
 }
 .slider button {
     position: absolute;
-    border: 1px solid lightblue;
+    border: 1px solid silver;
     height: 40px;
     width: 60px;
     border-radius: 8px;
-    top: 267px;
+    top: 50%;
     z-index: 1;
     cursor: pointer;
     font-size: 40px;
     line-height: 40px;
-    color: lightblue;
+    color: silver;
     opacity: 0;
 }
 .slider .to_left {
-    left: 40px;
+    left: 5%;
 }
 .slider .to_right {
-    right: 40px;
+    right: 5%;
 }
 .slider_points {
     position: absolute;
-    bottom: 40px;
+    bottom: 7%;
     left: 0;
     right: 0;
     height: 24px;

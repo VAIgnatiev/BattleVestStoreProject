@@ -108,7 +108,11 @@ $(function(){
     }
     
     $('.slider').each(function(){
-        makeSlider(this.id, 2000);
+        makeSlider(this.id, 8000);
+    });
+	
+	$('#slider2').each(function(){
+        makeSlider(this.id, 1000);
     });
     
     if ($('.catmenu li li').length) {
